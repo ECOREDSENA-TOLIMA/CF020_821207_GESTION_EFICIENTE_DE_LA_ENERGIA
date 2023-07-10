@@ -177,6 +177,11 @@ export default {
       },
       {
         icono: 'fas fa-download',
+        titulo: 'Descargar PDF',
+        download: 'downloads/CFA_020.pdf',
+      },
+      {
+        icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
       },
@@ -189,32 +194,45 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Procesadores de texto',
+      referencia:
+        'Aprendemania. (2020, 10 de octubre). Procesadores de texto ¿Qué son y tipos de procesadores? [Archivo de video]. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=cR6mwPVJrtg',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Procesadores de texto',
+      referencia: 'Guía Normas APA 7ª edición',
+      tipo: 'Anexo',
+      descarga: '/downloads/Anexo 1 Guia Normas APA 7 edicion.pdf',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Nube informática',
+      significado:
+        'Espacio de almacenamiento aportado por servidores virtuales conectados a <em>internet.</em>',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Parafrasear',
+      significado: 'Expresar con palabras propias las ideas de otro.',
+    },
+    {
+      termino: 'Presentaciones',
+      significado:
+        'Aplicación informática para la creación y/o edición de diapositivas.',
+    },
+    {
+      termino: 'Procesador de palabras',
+      significado:
+        'Aplicación informática para la creación y/o edición de documentos.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Microsoft Corporation (s,f). <em>Soporte Técnico de Office.</em> ',
+      link: 'https://support.microsoft.com/es-es',
     },
   ],
   creditos: [
@@ -227,9 +245,9 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Norma Constanza Morales Cruz',
           cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -237,9 +255,42 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Carlos Javier González Cuevas',
+          cargo: 'Experto Técnico',
+          centro:
+            'Distrito Capital - Centro Electricidad Electrónica y Telecomunicaciones',
+        },
+        {
+          nombre: 'Leidy Carolina Arias Aguirre',
+          cargo: 'Diseñadora Instruccional',
+          centro: 'Regional Distrito Capital - Centro de diseño y metrología',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Revisora Metodológica y Pedagógica',
+          centro:
+            'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor Pedagógico',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Jhon Jairo Rodríguez Pérez',
+          cargo: 'Corrector de Estilo',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Juan Gilberto Giraldo Cortés',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'María Inés Machado López',
+          cargo: 'Metodóloga',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -247,19 +298,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          nombre: 'José Yobani Penagos Mora',
+          cargo: 'Diseñador Web',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Davison Gaitán Escobar',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Storyboard e Ilustración',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Nelson Iván Vera Briceño',
+          cargo: 'Producción Audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Oleg Litvin',
+          cargo: 'Animador',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Francisco Javier Vásquez Suarez',
+          cargo: 'Actividad Didáctica',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -267,14 +333,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
+          nombre: 'Jorge Bustos Gómez',
           cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre validador',
+          nombre: 'Gilberto Naranjo Farfán',
           cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
