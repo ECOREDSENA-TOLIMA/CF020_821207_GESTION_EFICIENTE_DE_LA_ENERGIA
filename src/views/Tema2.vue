@@ -7,7 +7,7 @@
         span 2
       h1 Contenido documental según normativa vigente o referenciada
 
-    p(data-aos="zoom-in") Una forma de minimizar los problemas en la comunicación escrita es la adopción de un conjunto de pautas en la elaboración y presentación de documentos que resaltan la claridad y precisión del mensaje. Aunque existen varias referencias de pautas de presentación, tal vez el de mayor difusión en el mundo escolar y académico, es el de las Normas APA (American Psychological Association) que se encuentra en su 7ma edición, especialmente creadas para la presentación de documentos académicos y de investigación. 
+    p(data-aos="zoom-in") Una forma de minimizar los problemas en la comunicación escrita es la adopción de un conjunto de pautas en la elaboración y presentación de documentos que resaltan la claridad y precisión del mensaje. Aunque existen varias referencias de pautas de presentación, tal vez el de mayor difusión en el mundo escolar y académico, es el de las Normas APA (#[em American Psychological Association]) que se encuentra en su 7ma edición, especialmente creadas para la presentación de documentos académicos y de investigación. 
     p(data-aos="zoom-in") Los principales lineamientos establecidos en estas normas son:
 
     ImagenInfografica.color-secundario
@@ -19,53 +19,53 @@
         .h5.mb-2 Presentación
         ol.lista-ol
           li 
-            | ● Tipo de fuente: Times New Roman. tamaño 12 puntos, tamaño carta. 
+            | ● #[b Tipo de fuente]: Times New Roman. Tamaño 12 puntos, tamaño carta. 
           li 
-            | ● Márgenes de 2.5 cm en todos los bordes. 
+            | ● #[b Márgenes] de 2.5 cm en todos los bordes. 
           li 
-            | ● Paginación en números arábigos consecutivos, empezando en uno desde la portada y en la parte derecha del encabezado. 
+            | ● #[b Paginación] en números arábigos consecutivos, empezando en uno desde la portada y en la parte derecha del encabezado. 
           li 
-            | ● Interlineado a doble sin espacio adicional entre párrafos, alineación de texto justificado. Y sangría, 1.3 cm (5 espacios) al inicio de cada párrafo. 
+            | ● #[b Interlineado] doble sin espacio adicional entre párrafos, alineación de texto justificado. Y sangría, 1.3 cm (5 espacios) al inicio de cada párrafo. 
           li 
-            | ● Encabezado: en todas las páginas con el nombre del documento en mayúsculas (máximo 50 caracteres contando espacios), alineación izquierda. 
+            | ● #[b Encabezado]: en todas las páginas con el nombre del documento en mayúsculas (máximo 50 caracteres contando espacios), alineación izquierda. 
 
       .tarjeta.color-secundario.p-3(x="53%" y="53%" numero="2")
         .h5.mb-2 Estructura
         ol.lista-ol
-          li 
+          li.mb-0 
             | ● Portada 
-          li 
+          li.mb-0 
             | ● Resumen 
-          li 
+          li.mb-0 
             | ● Texto 
-          li 
+          li.mb-0 
             | ● Referencias 
-          li 
+          li.mb-0 
             | ● Notas 
-          li 
+          li.mb-0 
             | ● Tablas  
-          li 
+          li.mb-0 
             | ● Figuras  
-          li 
+          li.mb-0 
             | ● Apéndices  
 
       .tarjeta.color-secundario.p-3(x="25%" y="55%" numero="3")
         .h5.mb-2 Portada y contraportada
         p Se elabora en página nueva y la alineación del texto es central y deben contener en el orden mostrado la siguiente información: 
         ol.lista-ol
-          li 
+          li.mb-0
             | ● Título del proyecto: en negrilla, recomendable máximo 12 palabras  
-          li 
+          li.mb-0
             | ● Nombre y apellido de autores 
-          li 
+          li.mb-0 
             | ● Afiliación, colegio o Universidad 
-          li 
+          li.mb-0 
             | ● Curso 
-          li 
+          li.mb-0 
             | ● Nombre del profesor 
-          li 
+          li.mb-0 
             | ● Fecha 
-          li 
+          li.mb-0 
             | ● Apéndices  
 
       .tarjeta.color-secundario.p-3(x="75%" y="44%" numero="4")
@@ -80,14 +80,14 @@
 
         ol.lista-ol
           li 
-            | ● Cita narrativa o basada en el autor: Apellido (año). Se incorpora antes de la cita entre comillas y al final de la página entre paréntesis. 
+            | ● #[b Cita narrativa o basada en el autor]: apellido (año). Se incorpora antes de la cita entre comillas y al final de la página entre paréntesis. 
           li 
-            | ● Cita parentética o basada en el texto: (Apellido, año, página) van al final de la cita entre comillas.
+            | ● #[b Cita parentética o basada en el texto]: (apellido, año, página) van al final de la cita entre comillas.
 
       .tarjeta.color-secundario.p-3(x="41%" y="75%" numero="6")
         .h5.mb-2 Conclusiones y resumen 
         p Las conclusiones del proyecto van incluidas en la sección Discusión en donde se evalúan e interpretan las implicaciones de los resultados respecto de las hipótesis originales enfatizando las consecuencias teóricas y prácticas del proyecto. 
-        p El resumen, se elabora en página nueva ubicada después de la portada. Es un texto breve y claro (entre 150 a 250 palabras) que permita entender el contenido del artículo, que informe y no evalúe, que sea coherente, legible y redactado en voz activa, por ejemplo “consultado” en vez de “una consulta de¨. 
+        p El resumen, se elabora en página nueva ubicada después de la portada. Es un texto breve y claro (entre 150 a 250 palabras) que permita entender el contenido del artículo, que informe y no evalúe, que sea coherente, legible y redactado en voz activa, por ejemplo “consultado” en vez de “una consulta de”. 
 
       .tarjeta.color-secundario.p-3(x="69%" y="86%" numero="7")
         .h5.mb-2 Anexos 

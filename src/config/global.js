@@ -194,7 +194,7 @@ export default {
   },
   complementario: [
     {
-      tema: 'Procesadores de texto',
+      tema: 'Contenido documental según normativa vigente o referenciada',
       referencia:
         'Aprendemania. (2020, 10 de octubre). Procesadores de texto ¿Qué son y tipos de procesadores? [Archivo de video]. ',
       tipo: 'Video',

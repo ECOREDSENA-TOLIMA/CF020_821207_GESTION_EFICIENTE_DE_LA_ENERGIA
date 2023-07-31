@@ -3,11 +3,11 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p La documentación y presentación de resultados abarca una serie de aspectos fundamentales para la elaboración de documentos y presentaciones de manera efectiva y conforme a normativas establecidas. En primer lugar, los procesadores de texto son herramientas informáticas que permiten crear, editar y dar formato a documentos de texto. Estas aplicaciones, como #[em Microsoft Word] o #[em Google Docs], facilitan la escritura, el formato, la corrección y la organización del contenido de manera eficiente. El contenido documental según normativa vigente o referenciada se refiere a la creación y estructuración de documentos de acuerdo con las regulaciones, normas o pautas establecidas. Esto implica seguir directrices específicas en cuanto a la estructura, el formato, el estilo, la citación y las referencias utilizadas en los documentos, asegurando así la precisión, coherencia y validez de la información presentada.
+    p.mb-5 En cuanto a la creación de presentaciones según normativa vigente o referenciada, implica el desarrollo de diapositivas visualmente efectivas y coherentes siguiendo pautas establecidas por instituciones, organizaciones o estándares reconocidos. Esto implica considerar el diseño, la organización del contenido, el uso de gráficos y multimedia, el estilo visual y las técnicas de presentación, con el propósito de comunicar la información de manera efectiva y mantener la coherencia con los estándares establecidos.
 
     .row.justify-content-center
-      .col-lg-11.mb-5
+      .col-12.mb-5
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
       .col-auto
