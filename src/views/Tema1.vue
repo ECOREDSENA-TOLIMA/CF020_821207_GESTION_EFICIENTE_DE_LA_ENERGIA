@@ -103,25 +103,95 @@
 
     p(data-aos="zoom-in") #[em Word] tiene integrada una herramienta para revisión de ortografía y gramática la cual puede configurarse para ejecutarse en forma manual o automática marcando o desmarcando las casillas correspondientes en la vista de #[em Backstage] (pestaña Archivo), grupo Opciones y luego el menú Revisión, es muy fácil de usar, simplemente asegúrese de seguir estas detalladas instrucciones:
 
-    .row.justify-content-center 
-      .col-8
-        TabsC.color-primario.mt-5
-          .py-3.py-md-4(titulo="Corrector ortográfico")
-            .row
-              .col-md-6.col-12.mb-4.mb-md-0
-                p Para iniciar manualmente el corrector ortográfico y gramatical se presiona la tecla F7. 
-                p Independientemente de la configuración de la corrección, las palabras con errores ortográficos se subrayan con una línea ondulada roja y los gramaticales con doble línea recta azul. 
-              .col-12.col-md-6.mb-4.mb-md-0
-                figure
-                  img(src='@/assets/curso/temas/tema1/img3.png', alt='')
 
-          .py-3.py-md-4(titulo="Señalados")
-            .row
-              .col-md-6.col-12.mb-4.mb-md-0
-                p Una vez señalados los posibles errores, #[em Word] muestra opciones de corrección mediante menú contextual haciendo clic derecho sobre cada error marcado.
-              .col-12.col-md-6.mb-4.mb-md-0
-                figure
-                  img(src='@/assets/curso/temas/tema1/img4.png', alt='')
+    TabsA.color-acento-botones.mb-5
+      .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 1:")
+        .row
+          .col-md-6.col-12
+            p #[b Abrir #[i Microsoft Word]] 
+            p Haga doble clic en el icono de #[i Microsoft Word] en su escritorio o búsquelo en el menú de inicio y de clic para abrirlo.
+          .col-md-6.col-10
+            figure
+              img(src='@/assets/curso/temas/tema1/img-14.png', alt='')
+
+      .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 2:")
+        .row
+          .col-md-5.col-12
+            p #[b Crear o abrir un documento ] 
+            p Puede crear un nuevo documento en blanco seleccionando "Nuevo documento en blanco" o abrir un documento existente seleccionando "Abrir" y eligiendo el archivo correspondiente. 
+          .col-md-7.col-11
+            figure
+              img(src='@/assets/curso/temas/tema1/img-15.png', alt='')
+
+      .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 3:")
+        .row
+          .col-md-5.col-12
+            p #[b Navegar al menú "Revisar" ] 
+            p En la parte superior de la ventana de #[i Word], busque la pestaña "Revisar" y haga clic en ella. Esto lo llevará a la pestaña de revisión donde encontrará la herramienta de ortografía y gramática.  
+          .col-md-7.col-11
+            figure
+              img(src='@/assets/curso/temas/tema1/img-16.png', alt='')
+
+      .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 4:")
+        .row
+          .col-md-5.col-12
+            p #[b Iniciar la revisión de ortografía y gramática ] 
+            p Una vez en la pestaña "Revisar", busca el grupo de herramientas denominado "Revisión". En este grupo, verá un icono que se llama "Ortografía y gramática". De clic en este icono para iniciar la revisión. 
+          .col-md-7.col-11
+            figure
+              img(src='@/assets/curso/temas/tema1/img-17.png', alt='')
+
+      .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 5:")
+        .row
+          .col-md-6.col-12
+            p #[b Corrección de errores ortográficos y gramaticales ] 
+            p Aparecerá una ventana emergente con el primer error ortográfico o gramatical encontrado en el documento. #[i Word] resaltará la palabra o frase problemática y sugerirá una o varias correcciones. 
+            p • Para corregir el error, seleccionar una sugerencia de la lista o escribir manualmente la corrección. 
+            p • Si cree que no es un error, seleccione "Ignorar" y continúe sin realizar cambios. 
+            p • Si la palabra es correcta pero marca como error, seleccionar "Agregar al diccionario" para que se reconozca en el futuro. 
+          .col-md-6.col-11
+            figure
+              img(src='@/assets/curso/temas/tema1/img-18.png', alt='')
+
+      .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 6:")
+        .row
+          .col-md-5.col-12
+            p #[b Continuar la revisión ] 
+            p Después de realizar una corrección o tomar una acción sobre el error actual, #[i Word] le llevará automáticamente al siguiente error o problema ortográfico o gramatical en el documento. 
+            p Repita el proceso descrito en el Paso 5, hasta que haya revisado todo el documento. 
+          .col-md-7.col-11
+            figure
+              img(src='@/assets/curso/temas/tema1/img-19.png', alt='')
+
+      .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 7:")
+        .row
+          .col-md-5.col-12
+            p #[b Cerrar la herramienta de ortografía y gramática ] 
+            p Una vez que haya revisado todo el documento y no haya más errores ortográficos o gramaticales, aparecerá un mensaje indicando que la revisión está completa. 
+            p Haz clic en "Cerrar" para cerrar la ventana de la herramienta de ortografía y gramática 
+          .col-md-7.col-11
+            figure
+              img(src='@/assets/curso/temas/tema1/img-20.png', alt='')
+
+    //- .row.justify-content-center 
+    //-   .col-8
+    //-     TabsC.color-primario.mt-5
+    //-       .py-3.py-md-4(titulo="Corrector ortográfico")
+    //-         .row
+    //-           .col-md-6.col-12.mb-4.mb-md-0
+    //-             p Para iniciar manualmente el corrector ortográfico y gramatical se presiona la tecla F7. 
+    //-             p Independientemente de la configuración de la corrección, las palabras con errores ortográficos se subrayan con una línea ondulada roja y los gramaticales con doble línea recta azul. 
+    //-           .col-12.col-md-6.mb-4.mb-md-0
+    //-             figure
+    //-               img(src='@/assets/curso/temas/tema1/img3.png', alt='')
+
+    //-       .py-3.py-md-4(titulo="Señalados")
+    //-         .row
+    //-           .col-md-6.col-12.mb-4.mb-md-0
+    //-             p Una vez señalados los posibles errores, #[em Word] muestra opciones de corrección mediante menú contextual haciendo clic derecho sobre cada error marcado.
+    //-           .col-12.col-md-6.mb-4.mb-md-0
+    //-             figure
+    //-               img(src='@/assets/curso/temas/tema1/img4.png', alt='')
 
     Separador
     #t_1_4.titulo-segundo.color-acento-botones(data-aos="fade-left")
