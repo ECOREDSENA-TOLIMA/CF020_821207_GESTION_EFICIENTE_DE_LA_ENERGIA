@@ -307,7 +307,7 @@
                     i.fas.fa-link
 
     .cajon-b.color-primario.p-2.mb-5
-      p.mb-3(data-aos="zoom-in") Otros vídeos tutoriales que puede consultar sobre los procesadores de texto son:
+      p.mb-3(data-aos="zoom-in") Otros tutoriales que puede consultar sobre los procesadores de texto son:
 
     .row.justify-content-center.mb-3
       .col-10
@@ -382,8 +382,8 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.mb-1 Informática
-                  p.text-small.mb-0 #[em Microsoft® Word e internet]
+                  h4.mb-1 Sena Virtual Cursos Gratis de Informática
+                  //- p.text-small.mb-0 #[em Microsoft® Word e internet]
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.sena-virtual.co/sena-virtual-cursos-gratis-de-informatica/" target="_blank")
                     span Ir al sitio web

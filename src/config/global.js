@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Documentación y presentación de resultados',
     descripcionCurso:
-      'Para que los resultados de un proyecto estén disponibles para consulta deben ser documentados. Esta tarea se facilita con el uso de un software de procesamiento de palabras, pero si lo que se quiere es divulgar directamente el proyecto a los interesados, se deben elaborar diapositivas para proyectarlas, tarea facilitada por un software de presentaciones. En ambos casos, documentos y presentaciones, es recomendable estandarizar el formato para que sea homogéneo tanto en su estructura como en la tipografía. Esto se logra adoptando una norma para la elaboración de documentos de proyectos. ',
+      'Para que los resultados de un proyecto estén disponibles para consulta deben ser documentados. Esta tarea se facilita con el uso de un <i>software</i> de procesamiento de palabras, pero si lo que se quiere es divulgar directamente el proyecto a los interesados, se deben elaborar diapositivas para proyectarlas, tarea facilitada por un <i>software</i> de presentaciones. En ambos casos, documentos y presentaciones, es recomendable estandarizar el formato para que sea homogéneo tanto en su estructura como en la tipografía. Esto se logra adoptando una norma para la elaboración de documentos de proyectos. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     // imagenesDecorativasBanner: [
@@ -37,7 +37,7 @@ export default {
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Definición y herramientas software más comunes',
+            titulo: 'Definición y herramientas <i>software</i> más comunes',
             hash: 't_1_1',
           },
           {
