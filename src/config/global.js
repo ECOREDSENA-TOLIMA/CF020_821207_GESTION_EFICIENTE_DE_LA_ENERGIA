@@ -194,17 +194,17 @@ export default {
   },
   complementario: [
     {
-      tema: 'Contenido documental según normativa vigente o referenciada',
+      tema: 'Procesadores de texto',
       referencia:
         'Aprendemania. (2020, 10 de octubre). Procesadores de texto ¿Qué son y tipos de procesadores? [Archivo de video]. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=cR6mwPVJrtg',
     },
     {
-      tema: 'Procesadores de texto',
+      tema: 'Contenido documental según normativa vigente o referenciada',
       referencia: 'Guía Normas APA 7ª edición',
-      tipo: 'Anexo',
-      descarga: '/downloads/Anexo 1 Guia Normas APA 7 edicion.pdf',
+      tipo: 'Artículo',
+      descarga: '/downloads/Anexo_1_Guia_Normas_APA_7_edicion.pdf',
     },
   ],
   glosario: [
