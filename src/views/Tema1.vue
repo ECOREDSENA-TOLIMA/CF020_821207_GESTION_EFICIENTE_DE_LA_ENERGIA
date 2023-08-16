@@ -7,8 +7,8 @@
         span 1
       h1 Procesadores de texto
 
-    p(data-aos="zoom-in") Los procesadores de texto cuentan con una serie de elementos que permitirán comprender su componente. 
-    p(data-aos="zoom-in") #[b A continuación, se puede conocer cada uno de ellos].
+    p(data-aos="zoom-in") Los procesadores de texto son herramientas de #[em software], que se usan para la generación de una gran variedad de documentos, y se centra principalmente en contenido textual (cartas, informes, etc.), tal como podrá conocerlos en el siguiente contenido. 
+    //- p(data-aos="zoom-in") #[b A continuación, se puede conocer cada uno de ellos].
   
     Separador
     #t_1_1.titulo-segundo.color-acento-botones(data-aos="fade-left")
@@ -220,10 +220,8 @@
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img6.png')})`}"
       )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 #[em Word] es un #[em software] que tiene varias herramientas que permiten integrar en un documento, tablas, imágenes, gráficos, organigramas y diagramas, así como para la creación y manejo de tablas, imágenes y gráficos. Todas estas opciones se encuentran en la pestaña Insertar.
-          br
-          | Para crear tablas directamente en #[em Word] o importar tablas desde #[em Excel] (hoja de cálculo de #[em Microsoft]) se usa el grupo tablas de la pestaña Insertar como se muestra en la figura 4.
+      .bloque-texto-g__texto.p-3
+        p.mb-0 #[em Word] es un #[em software] que tiene varias herramientas que permiten integrar en un documento, tablas, imágenes, gráficos, organigramas y diagramas, así como para la creación y manejo de tablas, imágenes y gráficos. Todas estas opciones se encuentran en la pestaña Insertar. Para crear tablas directamente en #[em Word] o importar tablas desde #[em Excel] (hoja de cálculo de #[em Microsoft]) se usa el grupo tablas de la pestaña Insertar como se muestra en la figura 4.
           br
           br
           | Existen predeterminadas un número de filas y columnas, si ninguno de estos formatos le sirve para el tipo de tabla deseada, se debe configurar cada una de las opciones de formato disponible en una pestaña flotante especial denominada Herramientas de tabla con dos grupos, diseño de tabla y disposición, que solo se despliega cuando se hace clic sobre cualquier parte de una tabla existente.
