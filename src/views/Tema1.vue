@@ -44,7 +44,7 @@
     .row.mb-5
       .col-12
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 <b>Figura 1. </b> <i>Procesador de texto en Word.</i>
+          p.titulo.pb-0.mb-0 <b>Figura 1. </b> <i>Entorno del procesador de texto</i>
         figure
           img(src='@/assets/curso/temas/tema1/img2.svg' alt='')
 
@@ -53,11 +53,11 @@
         TabsA.color-acento-botones.mb-5
           .tarjeta.tarjeta--gris.p-4(titulo="Inicio")
             h4 Inicio
-            p La pantalla de inicio del programa muestra en la parte superior la llamada cinta de opciones, como se muestra en la figura para la pestaña de inicio.  
+            p La pantalla de inicio del programa muestra en la parte superior la llamada cinta de opciones, como se muestra en la figura 1 para la pestaña de inicio.  
 
           .tarjeta.tarjeta--gris.p-4(titulo="Acciones de comando")
             h4 Acciones de comando
-            p  Para saber la acción de cada comando basta con colocar el #[em mouse] sobre el ícono de interés y se despliega un cuadro de ayuda contextual con la información correspondiente como se muestra en la figura para el comando alineación central. 
+            p  Para saber la acción de cada comando basta con colocar el #[em mouse] sobre el ícono de interés y se despliega un cuadro de ayuda contextual con la información correspondiente como se muestra en la figura 1 para el comando alineación central. 
 
           .tarjeta.tarjeta--gris.p-4(titulo="Archivo")
             h4 Archivo
@@ -65,7 +65,7 @@
 
           .tarjeta.tarjeta--gris.p-4(titulo="Área de trabajo o lienzo")
             h4 Área de trabajo o lienzo
-            p En el centro se encuentra el espacio de trabajo con la vista preliminar de la hoja actual en donde se visualiza el texto tal y como se va escribiendo, como se muestra en la figura.
+            p En el centro se encuentra el espacio de trabajo con la vista preliminar de la hoja actual en donde se visualiza el texto tal y como se va escribiendo, como se muestra en la figura 1.
 
     p(data-aos="zoom-in") Para usar el entorno del procesador de texto, simplemente siga estos pasos básicos:
 
@@ -235,7 +235,7 @@
     
     p(data-aos="zoom-in") Continuando con el recorrido, a continuación, se verá cómo ubicar la herramienta para crear plantillas, combinar correspondencia, esquemas y documentos maestros.
 
-    .row(data-aos="fade-left") 
+    .row.justify-content-center.align-items-center(data-aos="fade-left") 
       .col-md-5.col-12
         p Las plantillas son una herramienta de #[em Word] que permite cargar documentos de uso común como hojas de vida, boletines, invitaciones, calendarios, cartas de presentación, certificaciones, etc., con contenidos y formatos preestablecidos de aspectos interesantes, atractivos y profesionales donde solo se diligencia la información específica del tipo de documento.
         p El tipo de archivo de las plantillas es .dotx y se pueden seleccionar en la vista de #[em Backstage] (pestaña archivo) en el grupo Nuevo como se muestra en la figura 3.
@@ -248,9 +248,15 @@
       .col-12
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 4. </b> <i>Creación de tabla Word.</i>
+    .row.justify-content-center.align-items-center
+      .col-md-7.col-12
         figure
           img(src='@/assets/curso/temas/tema1/img8.png')
-
+      .col-md-5.col-12
+        p Combinar correspondencia es una herramienta de “Word” que permite diligenciar de forma masiva un mismo documento con la información correspondiente a varios casos particulares, por ejemplo, cartas, sobres, correos electrónicos, etiquetas y directorios. Se accede a esta herramienta haciendo clic en el menú Iniciar combinación de correspondencia, en el grupo del mismo nombre, en la pestaña Correspondencia.
+        p La forma más fácil de usar esta herramienta es mediante el asistente para combinar correspondencia, que consiste en un paso a paso de seis niveles empezando por seleccionar el tipo de documento, elaboración del cuerpo del documento, selección de campos de combinación, selección de origen de destinatarios, ejecución de la combinación y finalización e impresión de resultados.
+        p Es necesario realizar prácticas que le permitan entender y aplicar cada una de estas herramientas, al final de la Unidad encontrará diferentes enlaces de videos tutoriales que le guiarán en su uso.
+      
     Separador
     #t_1_7.titulo-segundo.color-acento-botones(data-aos="fade-left")
       h2 1.7  Tablas de contenidos, de ilustraciones e índices, pie de página y encabezado

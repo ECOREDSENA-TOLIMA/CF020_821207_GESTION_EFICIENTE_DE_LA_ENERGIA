@@ -173,7 +173,7 @@
       h2 3.7 Trabajar con imágenes, tablas, gráficos y diagramas
 
     p(data-aos="zoom-in") Las herramientas para trabajar con imágenes, tablas, gráficos y diagramas en #[em PowerPoint] son las mismas que se revisaron anteriormente para #[em Word].
-    p(data-aos="zoom-in") La apariencia de la pestaña Insertar y los grupos de herramientas se muestra en la siguiente figura: 
+    p(data-aos="zoom-in") La apariencia de la pestaña Insertar y los grupos de herramientas se muestra en la siguiente figura. 
 
     .row.mt-5(data-aos="fade-left") 
       .col-12
