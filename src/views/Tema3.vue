@@ -15,7 +15,7 @@
     #t_3_1.titulo-segundo.color-acento-botones(data-aos="fade-left")
       h2 3.1 Entorno y primeros pasos
 
-    p(data-aos="zoom-in") De todos los programas mencionados, se va a particularizar el entorno y funciones de PowerPoint por ser este el de mayor uso tanto en usuarios empresariales como en personales. ¡A continuación su entorno!
+    p(data-aos="zoom-in") De todos los programas mencionados, se va a particularizar el entorno y funciones de #[i PowerPoint] por ser este el de mayor uso tanto en usuarios empresariales como en personales. ¡A continuación su entorno!
     p(data-aos="zoom-in") La pantalla de inicio del programa muestra en la parte superior la llamada cinta de opciones, como se muestra en la figura 7 para la pestaña de Inicio.
 
     .row.justify-content-center.align-items-center
@@ -61,7 +61,7 @@
             .col-12.col-md-6
               .titulo-sexto.color-acento-contenido
                 p.titulo.pb-0.mb-0 <b>Figura 10. </b> <i> Vista de Esquema PowerPoint.</i>
-              img(src='@/assets/curso/temas/tema3/img5.svg')
+              img(src='@/assets/curso/temas/tema3/img5.jpg')
         .tarjeta.color-acento-contenido--borde.py-4.px-3
           .row
             .col-12.col-md-6
@@ -70,7 +70,7 @@
             .col-12.col-md-6
               .titulo-sexto.color-acento-contenido
                 p.titulo.pb-0.mb-0 <b>Figura 11. </b> <i>Clasificador de diapositivas PowerPoint.</i>
-              img(src='@/assets/curso/temas/tema3/img6.svg')
+              img(src='@/assets/curso/temas/tema3/img6.jpg')
       
     p(data-aos="zoom-in").mt-5 Al final de la unidad podrá consultar diferentes enlaces sobre cursos de #[em Microsoft] para el uso y aplicación del #[em PowerPoint].
 
@@ -87,7 +87,7 @@
 
       .col-12.col-md-5
         p Para crear y modificar contenidos en diapositivas, así como el orden de presentación de las mismas, la vista más apropiada es la Normal. En el panel de miniaturas podemos seleccionar la diapositiva a visualizar en el panel de diapositivas, modificar el orden de presentación de las diapositivas arrastrando las miniaturas al lugar deseado y copiar, insertar o eliminar diapositivas.
-        p En el panel de diapositivas se visualiza en gran tamaño la diapositiva seleccionada en el panel de miniaturas para crear o modificar el contenido de la misma. Entre otros se pueden incluir todo tipo de recursos audiovisuales y texto, este último solo puede ser incluido mediante cuadros de texto. Al hacer parte de la #[em suite] de programas de office de #[em Microsoft], comparte muchas similitudes con los otros programas de la #[em suite], en particular todo lo relativo al formato de texto como fuentes, tamaño, color, subrayado, etc. ya visto en el capítulo de #[em Word]. Para facilitar la alineación de los objetos en la diapositiva, #[em PowerPoint] muestra un conjunto de líneas punteadas denominadas guías inteligentes que facilitan observar las asimetrías existentes entre el centro o bordes del elemento a ubicar y los centros y bordes de los demás elementos de la diapositiva como se muestra en la figura 12.
+        p En el panel de diapositivas se visualiza en gran tamaño la diapositiva seleccionada en el panel de miniaturas para crear o modificar el contenido de la misma. Entre otros se pueden incluir todo tipo de recursos audiovisuales y texto, este último solo puede ser incluido mediante cuadros de texto. Al hacer parte de la #[em suite] de programas de #[i office] de #[em Microsoft], comparte muchas similitudes con los otros programas de la #[em suite], en particular todo lo relativo al formato de texto como fuentes, tamaño, color, subrayado, etc. ya visto en el capítulo de #[em Word]. Para facilitar la alineación de los objetos en la diapositiva, #[em PowerPoint] muestra un conjunto de líneas punteadas denominadas guías inteligentes que facilitan observar las asimetrías existentes entre el centro o bordes del elemento a ubicar y los centros y bordes de los demás elementos de la diapositiva como se muestra en la figura 12.
 
     Separador
     #t_3_4.titulo-segundo.color-acento-botones(data-aos="fade-left")

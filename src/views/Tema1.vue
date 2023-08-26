@@ -94,7 +94,7 @@
               p Guarde su documento regularmente para evitar la pérdida de datos.
               p Hacer listado ordenado color.
                 
-    p(data-aos="zoom-in") El entorno del procesador de texto es útil en diversas situaciones, como la redacción de documentos formales e informales, la creación de currículums, informes, cartas, ensayos, artículos, entre otros. Además, facilita la colaboración en tiempo real, el formato coherente y la organización eficiente de la información.
+    p(data-aos="zoom-in") El entorno del procesador de texto es útil en diversas situaciones, como la redacción de documentos formales e informales, la creación de #[i currículums], informes, cartas, ensayos, artículos, entre otros. Además, facilita la colaboración en tiempo real, el formato coherente y la organización eficiente de la información.
     p(data-aos="zoom-in") Recuerde que el entorno puede variar ligeramente según el #[em software] de procesamiento de textos que utilice, pero los conceptos básicos siguen siendo similares.
 
     Separador
@@ -197,18 +197,19 @@
     #t_1_4.titulo-segundo.color-acento-botones(data-aos="fade-left")
       h2 1.4 Formato del documento, estilos, diseño de página e impresión
 
-    .row(data-aos="fade-left") 
+    
+    .titulo-sexto.color-acento-contenido
+      p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Diseño de página e impresión en Word.</i>
+    .row.justify-content-center.align-items-center(data-aos="fade-left") 
       .col-md-7.col-12
-        .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Diseño de página e impresión en Word.</i>
         figure
-          img(src='@/assets/curso/temas/tema1/img5.svg', alt='')
+          img(src='@/assets/curso/temas/tema1/img5.jpg', alt='')
       .col-md-5.col-12
         p La configuración del tamaño de la página a usar, los márgenes, la orientación de la página y el número de columnas por página se realiza en la pestaña Disposición de la cinta de opciones. En esta cinta de opciones, en la pestaña de inicio encontrará un grupo denominado Estilos.
         p Un estilo es un conjunto de configuraciones específicas de las opciones de formato que se pueden aplicar a cualquier texto simultáneamente. Esto se puede hacer manualmente con cada una de las opciones una por una, pero hacerlo con la aplicación del estilo, se hace más rápido y con menos posibilidades de error, obteniendo un resultado más homogéneo. Los estilos para aplicar se pueden seleccionar de los que vienen predeterminados o se pueden crear nuevos modificando los existentes o arrancando de cero.
         p Otra ventaja de usar los estilos en los títulos es que facilitan la automatización en la creación de índices y tablas de contenido como veremos más adelante.
 
-    p(data-aos="zoom-in") En la vista de #[em Backstage] (pestaña archivo) encontramos el grupo Imprimir. Desde este grupo podemos configurar algunas opciones que como ya vimos, también se encuentran en la pestaña disposición grupo Configurar página y otras opciones adicionales como el número de copias, la selección de la impresora, el rango de páginas a imprimir. Si se imprime por una sola cara de la hoja o en ambas y cuántas páginas por hoja.
+    p.mt-5(data-aos="zoom-in") En la vista de #[em Backstage] (pestaña archivo) encontramos el grupo Imprimir. Desde este grupo podemos configurar algunas opciones que como ya vimos, también se encuentran en la pestaña disposición grupo Configurar página y otras opciones adicionales como el número de copias, la selección de la impresora, el rango de páginas a imprimir. Si se imprime por una sola cara de la hoja o en ambas y cuántas páginas por hoja.
     p(data-aos="zoom-in") Es importante resaltar que en este grupo es en donde se puede convertir el documento a formato PDF (#[em portable document format]) seleccionando como impresora la opción #[em Microsoft Print to PDF].
     p(data-aos="zoom-in") Más adelante, podrá consultar diferentes tutoriales que le llevaran paso a paso a la aplicación de cada una de estas herramientas. 
 
@@ -221,7 +222,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img6.png')})`}"
       )
       .bloque-texto-g__texto.p-3
-        p.mb-0 #[em Word] es un #[em software] que tiene varias herramientas que permiten integrar en un documento, tablas, imágenes, gráficos, organigramas y diagramas, así como para la creación y manejo de tablas, imágenes y gráficos. Todas estas opciones se encuentran en la pestaña Insertar. Para crear tablas directamente en #[em Word] o importar tablas desde #[em Excel] (hoja de cálculo de #[em Microsoft]) se usa el grupo tablas de la pestaña Insertar como se muestra en la figura 4.
+        p.mb-0 #[em Word] es un #[em software] que tiene varias herramientas que permiten integrar en un documento, tablas, imágenes, gráficos, organigramas y diagramas, así como para la creación y manejo de tablas, imágenes y gráficos. Todas estas opciones se encuentran en la pestaña Insertar. Para crear tablas directamente en #[em Word] o importar tablas desde #[em Excel] (hoja de cálculo de #[em Microsoft]) se usa el grupo tablas de la pestaña Insertar.
           br
           br
           | Existen predeterminadas un número de filas y columnas, si ninguno de estos formatos le sirve para el tipo de tabla deseada, se debe configurar cada una de las opciones de formato disponible en una pestaña flotante especial denominada Herramientas de tabla con dos grupos, diseño de tabla y disposición, que solo se despliega cuando se hace clic sobre cualquier parte de una tabla existente.
@@ -244,16 +245,16 @@
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 3. </b> <i>Vista backstage plantillas Word.</i>
         figure
-          img(src='@/assets/curso/temas/tema1/img7.png', alt='')
+          img(src='@/assets/curso/temas/tema1/img7.jpg', alt='')
       .col-12
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 <b>Figura 4. </b> <i>Creación de tabla Word.</i>
+          p.titulo.pb-0.mb-0 <b>Figura 4. </b> <i>Combinación de correspondencia</i>
     .row.justify-content-center.align-items-center
       .col-md-7.col-12
         figure
-          img(src='@/assets/curso/temas/tema1/img8.png')
+          img(src='@/assets/curso/temas/tema1/img8.jpg', alt='')
       .col-md-5.col-12
-        p Combinar correspondencia es una herramienta de “Word” que permite diligenciar de forma masiva un mismo documento con la información correspondiente a varios casos particulares, por ejemplo, cartas, sobres, correos electrónicos, etiquetas y directorios. Se accede a esta herramienta haciendo clic en el menú Iniciar combinación de correspondencia, en el grupo del mismo nombre, en la pestaña Correspondencia.
+        p Combinar correspondencia es una herramienta de #[i Word]  que permite diligenciar de forma masiva un mismo documento con la información correspondiente a varios casos particulares, por ejemplo, cartas, sobres, correos electrónicos, etiquetas y directorios. Se accede a esta herramienta haciendo clic en el menú Iniciar combinación de correspondencia, en el grupo del mismo nombre, en la pestaña Correspondencia.
         p La forma más fácil de usar esta herramienta es mediante el asistente para combinar correspondencia, que consiste en un paso a paso de seis niveles empezando por seleccionar el tipo de documento, elaboración del cuerpo del documento, selección de campos de combinación, selección de origen de destinatarios, ejecución de la combinación y finalización e impresión de resultados.
         p Es necesario realizar prácticas que le permitan entender y aplicar cada una de estas herramientas, al final de la Unidad encontrará diferentes enlaces de videos tutoriales que le guiarán en su uso.
       
@@ -266,10 +267,12 @@
         p(data-aos="zoom-in") Las tablas de contenido, de ilustraciones e índices son un listado organizado por número de página de aparición de los contenidos (capítulos, secciones y títulos), tablas y gráficas del documento elaborado. #[em Word] provee una herramienta, que genera y actualiza automáticamente cada tipo de listado, en la pestaña Referencia. En el desarrollo tecnológico de #[em Word], se crearon múltiples herramientas que permiten generar documentos bien elaborados. 
         p(data-aos="zoom-in") Para que la generación y actualización de los listados se realice de forma automática se deben “marcar” los elementos que se desean incluir en cada listado y en este caso para la marcación consiste en aplicar un mismo estilo de título de la galería a dichos elementos. Obviamente para cada tipo de listado se debe usar un estilo diferente.
 
-      .col-5
+      
+    .row.justify-content-center.align-items-center
+      .col-md-5
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 5. </b> <i>Encabezado y Pie de página Word.</i>
-        img(src='@/assets/curso/temas/tema1/img9.svg')
+        img(src='@/assets/curso/temas/tema1/img9.jpg')
 
       .col-5
        p Algunas veces se requiere que todas las páginas del documento repitan algún tipo de información como fecha, número de página, nombre del documento, logos, sellos, etc. Cuando dicha información se inserta en la parte superior se denomina encabezado y cuando se hace en la parte inferior se denomina pie de página. #[em Word] permite la inserción de las dos clases de ubicación de la información mediante los comandos del grupo Encabezado y pie de página de la ficha Insertar.
