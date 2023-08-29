@@ -92,7 +92,7 @@
           .row
             .col.mb-4.mb-md-0
               p Guarde su documento regularmente para evitar la pérdida de datos.
-              p Hacer listado ordenado color.
+              p Elaborar listado ordenado por color.
                 
     p(data-aos="zoom-in") El entorno del procesador de texto es útil en diversas situaciones, como la redacción de documentos formales e informales, la creación de #[i currículums], informes, cartas, ensayos, artículos, entre otros. Además, facilita la colaboración en tiempo real, el formato coherente y la organización eficiente de la información.
     p(data-aos="zoom-in") Recuerde que el entorno puede variar ligeramente según el #[em software] de procesamiento de textos que utilice, pero los conceptos básicos siguen siendo similares.
