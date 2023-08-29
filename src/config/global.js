@@ -203,7 +203,7 @@ export default {
     {
       tema: 'Contenido documental según normativa vigente o referenciada',
       referencia: 'Guía Normas APA 7ª edición',
-      tipo: 'Anexo',
+      tipo: 'Enlace web',
       link:
         'https://normas-apa.org/wp-content/uploads/Guia-Normas-APA-7ma-edicion.pdf ',
     },
